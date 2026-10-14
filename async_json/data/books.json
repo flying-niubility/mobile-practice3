@@ -1,0 +1,22 @@
+[
+  {"id": "B001", "title": "Flutter实战", "category": "移动开发", "borrowCount": 128},
+  {"id": "B002", "title": "Dart编程语言", "category": "移动开发", "borrowCount": 96},
+  {"id": "B003", "title": "Android进阶之光", "category": "移动开发", "borrowCount": 75},
+  {"id": "B004", "title": "iOS开发实战", "category": "移动开发", "borrowCount": 60},
+  {"id": "B005", "title": "深入理解计算机系统", "category": "计算机基础", "borrowCount": 210},
+  {"id": "B006", "title": "算法导论", "category": "计算机基础", "borrowCount": 185},
+  {"id": "B007", "title": "数据结构与算法分析", "category": "计算机基础", "borrowCount": 142},
+  {"id": "B008", "title": "计算机网络：自顶向下方法", "category": "计算机基础", "borrowCount": 130},
+  {"id": "B009", "title": "代码整洁之道", "category": "软件工程", "borrowCount": 198},
+  {"id": "B010", "title": "重构：改善既有代码的设计", "category": "软件工程", "borrowCount": 156},
+  {"id": "B011", "title": "设计模式之禅", "category": "软件工程", "borrowCount": 110},
+  {"id": "B012", "title": "人月神话", "category": "软件工程", "borrowCount": 88},
+  {"id": "B013", "title": "机器学习", "category": "人工智能", "borrowCount": 245},
+  {"id": "B014", "title": "深度学习", "category": "人工智能", "borrowCount": 220},
+  {"id": "B015", "title": "统计学习方法", "category": "人工智能", "borrowCount": 175},
+  {"id": "B016", "title": "人工智能：一种现代的方法", "category": "人工智能", "borrowCount": 135},
+  {"id": "B017", "title": "MySQL必知必会", "category": "数据库", "borrowCount": 92},
+  {"id": "B018", "title": "Redis设计与实现", "category": "数据库", "borrowCount": 168},
+  {"id": "B019", "title": "MongoDB权威指南", "category": "数据库", "borrowCount": 70},
+  {"id": "B020", "title": "高性能MySQL", "category": "数据库", "borrowCount": 148}
+]

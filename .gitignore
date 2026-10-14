@@ -1,0 +1,17 @@
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dart build (per-project .gitignore also covers .dart_tool/)
+.dart_tool/
+build/
+
+# Temp extraction
+_temp_extract/
