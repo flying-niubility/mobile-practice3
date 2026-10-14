@@ -16,15 +16,17 @@ class Book {
     required this.borrowCount,
   });
 
-  /// 从 JSON Map 构造 Book。
-  /// 数字字段统一用 `as num` 再 `toInt()`，
-  /// 兼容 JSON 中数字可能是 int 或 double 的情况。
+  /// 从 JSON Map 构造 Book（鲁棒版）。
+  ///
+  /// - 字段缺失时使用默认值（borrowCount 默认 0，字符串字段默认占位文本）；
+  /// - 数字字段统一用 `as num?` 再 `toInt()`，兼容 JSON 数字为 int/double；
+  /// - 类型断言失败会抛出 TypeError，由调用方 try-catch 兜底。
   factory Book.fromJson(Map<String, dynamic> j) {
     return Book(
-      id: j['id'] as String,
-      title: j['title'] as String,
-      category: j['category'] as String,
-      borrowCount: (j['borrowCount'] as num).toInt(),
+      id: (j['id'] as String?) ?? '未知ID',
+      title: (j['title'] as String?) ?? '未知标题',
+      category: (j['category'] as String?) ?? '未分类',
+      borrowCount: (j['borrowCount'] as num?)?.toInt() ?? 0,
     );
   }
 
